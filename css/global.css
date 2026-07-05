@@ -14,19 +14,14 @@
 
     --background-primary-color: #ffffff;
     --background-secondary-color: #f5f5f5;
-    --background-tertiary-color: #0000;
+    --background-tertiary-color: #000000;
  
     --text-primary-color: #222222;
-    --text-secondary-color: #8C8C8C;
-    --text-tertiary-color: #D9D9D9;
+    --text-secondary-color: #ffffff;
   
     --titles-weight: 700;
     --texts-weight: 400;
     --menu-text-weight: 500;
-
-    menu: 500;
-    footer: 400
-    cards: 400 e 700
 
 }
 
@@ -39,4 +34,8 @@
 
 h1{
     color: var()
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
 }
