@@ -1,7 +1,4 @@
-.destinations{
-    width: 312px;
-    margin: 0 auto;
-}
+
 
 .destination-items {
     display: flex;
@@ -59,9 +56,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .destinations {
-    width: 900px;
-  }
+
 
   .destinations .item .img-item {
     width: 100%;
@@ -70,9 +65,7 @@
 
 }
 @media screen and (min-width: 1440px) {
-  .destinations {
-    width: 1200px;
-  }
+
   .destination-items {
     flex-direction: row;
   }
