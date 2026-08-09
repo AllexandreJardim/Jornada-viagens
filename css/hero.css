@@ -1,25 +1,38 @@
-.hero-img{
-    height: 400px;
-    width: 100%;
-    background: url(../img/hero-mobile.jpg) no-repeat;
-    background-size: cover;
+.hero .hero-img,
+.bottom-hero .hero-img {
+  height: 400px;
+  width: 100%;
+}
+.hero .hero-img {
+  background: url(../img/hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+ .bottom-hero .hero-img {
+  background: url(../img/bottom-hero-mobile.png) no-repeat;
+  background-size: cover;
+    background-position: 100% 49%;
 }
 
 .hero h2{
     padding: 88px 24px;
     margin: 0px;
-    font-weight: var(--text-weight);
+    font-weight: var(--texts-weight);
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
 }
 
 @media screen and (min-width: 768px ) {
-    .hero-img{
+.hero .hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
-    }
+  }
+  .bottom-hero .hero-img {
+    height: 620px;
+    background: url(../img/bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
+  }
 
     .hero h2{
     padding: 88px 60px;
@@ -38,7 +51,12 @@
     }
 }
 
-@media screen and (min-width: 1024px ) {
+@media screen and (min-width: 1440px ) {
+
+     .botttom-hero .hero-img{
+    background: url(../img/bttom-hero-desk.png) no-repeat;
+    background-size: cover;
+    }
 
     .hero h2{
         padding: 88px 160px;
