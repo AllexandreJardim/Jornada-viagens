@@ -38,12 +38,12 @@ body{
     color: var(--text-primary-color);
 }
 
-.section{
+section{
     width: 312px;
     margin: 0 auto 88px;
 }
 
-.section.hero{
+section.hero{
     width: 100%;
     margin: 0;
 }
@@ -62,6 +62,17 @@ body{
     border: none;
     margin: 16px auto 32px;
 
+}
+
+.content-title{
+ font-size: 28px;
+  font-weight: var(--titles-weight);
+  margin: 0 0 24px;
+}
+.content-text{
+font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--texts-weight);
 }
 
 .button{
@@ -83,9 +94,8 @@ body{
     font-size: 32px;
     }
 
-    .section{
+    section{
     width: 648px;
-    margin: 0 auto;
 }
 
 }
@@ -95,18 +105,15 @@ body{
     background-color: var(--primary-color);
   }
 
-  .section{
+  section{
     width: 900px;
-    margin: 0 auto;
 }
 
 }
 
 @media screen and (min-width: 1440px) {
   
-  .section{
+  section{
     width: 1200px;
-    margin: 0 auto;
 }
-
 }

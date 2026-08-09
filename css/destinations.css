@@ -1,7 +1,4 @@
-.destinations{
-    width: 312px;
-    margin: 0 auto;
-}
+
 
 .destination-items {
     display: flex;
@@ -24,14 +21,10 @@
 }
 
 .destinations .item header h4 {
-  font-size: 28px;
-  font-weight: var(--titles-weight);
     margin: 24px 0;
 }
 
 .destinations .item p {
-  margin-bottom: 20px;
-  line-height: 32px;
   margin-bottom: 24px;
 
 }
@@ -41,9 +34,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .destinations {
-    width: 648px;
-  }
+
   .destinations .item .img-item {
     width: 100%;
     height: 452px;
@@ -59,9 +50,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .destinations {
-    width: 900px;
-  }
+
 
   .destinations .item .img-item {
     width: 100%;
@@ -70,9 +59,7 @@
 
 }
 @media screen and (min-width: 1440px) {
-  .destinations {
-    width: 1200px;
-  }
+
   .destination-items {
     flex-direction: row;
   }
